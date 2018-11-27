@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>unit</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Javascript game.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="javascript/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <header><h1>Wild Cats!</h1></header>
+        </div>
+      </div>
+
+      <!-- Rendered buttons will get dumped here -->
+      <div class="row"><div class="col-md-12" id="buttons-view"></div></div>
+
+      <!-- Form for searching animal gifs -->
+      <div class="row">
+        <div class="col-md-12">
+          <form id="giphy-form">
+            <label for="animal-input">Add Another Feline:</label>
+            <input type="text" id="animal-input" />
+
+            <!-- Button triggers new gifs to be added. -->
+            <input id="add-gif" type="submit" value="Add" />
+          </form>
+        </div>
+      </div>
+      <div class="row"><div class="col-md-12" id="gif-container"></div></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="javascript\app.js"></script>
+  </body>
+</html>
