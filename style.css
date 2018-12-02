@@ -6,3 +6,8 @@ body {
 h1 {
   font-size: 50px;
 }
+
+.container {
+  display: block;
+  float: left;
+}
