@@ -20,7 +20,7 @@ $(document).ready(function() {
       $("#buttons-view").append(button);
     }
   }
-  //Entire function that pulls gifs from API
+  //function for  pulling gifs out of an API
   function showGifs() {
     // Create a new gif variable with the "data-name" attribute that was set above.
     var gif = $(this).attr("data-name");
@@ -54,7 +54,7 @@ $(document).ready(function() {
   //Call addButtons.
   addButtons();
 
-  //Click event for form input, adds to the array, and does the addButton function when "submit" is clicked.
+  //Click event for form input, this adds to the array, and does the addButton function when "submit" is clicked.
   $("#add-gif").on("click", function(event) {
     event.preventDefault();
     var newGif = $("#animal-input").val();
